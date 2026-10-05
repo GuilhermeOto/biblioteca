@@ -8,14 +8,14 @@ export default function Desenvolvedor() {
             <View style={styles.formaBaixo} />
 
             <ScrollView contentContainerStyle={styles.container}>
-                <Text style={styles.titulo}>Desenvolvedor</Text>
+                <Text style={styles.titulo}>Sobre o desenvolvedor</Text>
 
                 <View style={styles.card}>
                 <View style={styles.avatar}>
-                    <Text style={styles.avatarTexto}>JR</Text>
+                    <Text style={styles.avatarTexto}>GO</Text>
                 </View>
 
-                <Text style={styles.nome}>José Roberto Sanches Campos</Text>
+                <Text style={styles.nome}>Guilherme Oto</Text>
                 <Text style={styles.cargo}>Desenvolvedor Mobile</Text>
 
                 <View style={styles.divisor} />
@@ -23,7 +23,7 @@ export default function Desenvolvedor() {
                 <View style={styles.secao}>
                     <Text style={styles.secaoTitulo}>Sobre</Text>
                     <Text style={styles.descricao}>
-                        Cursando FATEC - Votorantim, Curso de Desenvolvimento Multiplataformas.
+                        Teste.
                     </Text>
                 </View>
 
@@ -61,8 +61,8 @@ export default function Desenvolvedor() {
                 <View style={styles.secao}>
                     <Text style={styles.secaoTitulo}>Sobre o projeto</Text>
                     <Text style={styles.descricao}>
-                        Aplicativo de biblioteca desenvolvido para gerenciar acervo, reservas e
-                        recomendações de livros, construído com React Native e Expo.
+                        Uma biblioteca digital criada para organizar acervo, reservas e recomendações
+                        de livros em uma experiência prática e acolhedora.
                     </Text>
                 </View>
                 </View>
@@ -74,7 +74,7 @@ export default function Desenvolvedor() {
 const styles = StyleSheet.create({
     scroll: {
         flex: 1,
-        backgroundColor: "#1A1A2E",
+        backgroundColor: "#102A43",
     },
     formaTopo: {
         position: "absolute",
@@ -83,7 +83,7 @@ const styles = StyleSheet.create({
         width: 220,
         height: 220,
         borderRadius: 110,
-        backgroundColor: "#4C5DF4",
+        backgroundColor: "#2CB1A6",
         opacity: 0.35,
     },
     formaBaixo: {
@@ -93,15 +93,15 @@ const styles = StyleSheet.create({
         width: 260,
         height: 260,
         borderRadius: 130,
-        backgroundColor: "#6C7BF7",
+        backgroundColor: "#F08A5D",
         opacity: 0.25,
     },
     container: {
-        padding: 24,
+        padding: 20,
         alignItems: "center",
     },
     titulo: {
-        fontSize: 24,
+        fontSize: 22,
         fontWeight: "bold",
         marginBottom: 24,
         color: "#FFFFFF",
@@ -110,21 +110,23 @@ const styles = StyleSheet.create({
         width: "100%",
         maxWidth: 400,
         backgroundColor: "#FFFFFF",
-        borderRadius: 16,
+        borderRadius: 12,
         padding: 24,
         alignItems: "center",
         shadowColor: "#000",
         shadowOffset: { width: 0, height: 4 },
         shadowOpacity: 0.1,
         shadowRadius: 10,
-        elevation: 4,
+        elevation: 5,
+        borderWidth: 1,
+        borderColor: "#E6EEF5",
         marginBottom: 24,
     },
     avatar: {
         width: 72,
         height: 72,
         borderRadius: 36,
-        backgroundColor: "#4C5DF4",
+        backgroundColor: "#0F766E",
         alignItems: "center",
         justifyContent: "center",
         marginBottom: 16,
@@ -137,19 +139,19 @@ const styles = StyleSheet.create({
     nome: {
         fontSize: 18,
         fontWeight: "700",
-        color: "#1A1A2E",
+        color: "#102A43",
         textAlign: "center",
     },
     cargo: {
         fontSize: 14,
-        color: "#4C5DF4",
+        color: "#0F766E",
         fontWeight: "600",
         marginTop: 4,
     },
     divisor: {
         width: "100%",
         height: 1,
-        backgroundColor: "#E0E0E0",
+        backgroundColor: "#D9E2EC",
         marginVertical: 20,
     },
     secao: {
@@ -159,7 +161,7 @@ const styles = StyleSheet.create({
     secaoTitulo: {
         fontSize: 15,
         fontWeight: "700",
-        color: "#1A1A2E",
+        color: "#102A43",
         marginBottom: 8,
     },
     descricao: {
@@ -175,7 +177,7 @@ const styles = StyleSheet.create({
         width: 6,
         height: 6,
         borderRadius: 3,
-        backgroundColor: "#4C5DF4",
+        backgroundColor: "#F08A5D",
         marginTop: 6,
         marginRight: 8,
     },
@@ -191,14 +193,14 @@ const styles = StyleSheet.create({
         gap: 8,
     },
     tag: {
-        backgroundColor: "#EEF0FE",
-        borderRadius: 20,
+        backgroundColor: "#E6FFFA",
+        borderRadius: 8,
         paddingVertical: 6,
         paddingHorizontal: 14,
     },
     tagTexto: {
         fontSize: 13,
-        color: "#4C5DF4",
+        color: "#0F766E",
         fontWeight: "600",
     },
 });
